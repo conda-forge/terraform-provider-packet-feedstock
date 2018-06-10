@@ -1,11 +1,11 @@
 {% set provider = "Packet" %}
-{% set version = "1.2.3" %}
+{% set version = "1.2.4" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "54fb1769c9878c31653c5c90a21a72d336222398701fac044b99eaf5153e1d79" %}
-{% set sha256_win64 = "49834da97273e3df704cbeb1f98b037733645b2d28146290a32013d49cf7664a" %}
+{% set sha256 = "ea98e46691bb6ec199747838fec79bad12f8b3f7997fcbdff4aaf15283275e8b" %}
+{% set sha256_win64 = "33e6afbbe810893b905d79b517087e8f360f9402e1467da74589ae582232a0cd" %}
 
 package:
   name: {{ name|lower }}
